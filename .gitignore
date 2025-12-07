@@ -9,6 +9,7 @@
 .env.development
 .env.production
 .env.test
+.env.docker
 
 # Keep example file
 !.env.example
