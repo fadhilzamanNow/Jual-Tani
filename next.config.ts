@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: "standalone",
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -35,7 +36,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "tanijual.s3.ap-southeast-1.amazonaws.com",
+        hostname: "tanijual-prod.s3.ap-southeast-1.amazonaws.com",
       },
     ],
   },

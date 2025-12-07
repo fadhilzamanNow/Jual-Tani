@@ -19,3 +19,6 @@
 !/public/uploads/.gitkeep
 
 /docs
+
+# Screenshots directory
+/screenshots
